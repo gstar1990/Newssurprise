@@ -28,8 +28,8 @@ Example:
 ```
 
 
-![Picture1](news1.PNG)
-![Picture2](news2.PNG)
+![Picture1](news1.png)
+![Picture2](news2.png)
 
 ```R
 setwd("c:~")
