@@ -1,0 +1,21 @@
+Name of QuantLet:  Newssurprise
+
+Published in:      
+
+Description:       Generate news surprise index
+
+Keywords:          Media News, Sentiment, Uncertainty
+
+See also:          
+
+Author:            Guo Li
+
+Submitted:         Mon, September 5 2016 by Guo Li
+
+Datafile:          dat_Z.RData 1996.csv nBWsent.RData nPLS.RData
+
+Input:  
+
+Output:  
+
+Example:           
