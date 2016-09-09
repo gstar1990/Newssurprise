@@ -14,7 +14,7 @@ Submitted:         'Mon, September 5 2016 by Guo Li'
 
 Datafile:          'dat_Z.RData 1996.csv nBWsent.RData nPLS.RData'
 
-Input:  
+Input:  '1996.csv, dat_Z.RData, nBWsent.RData, nPLS.RData'
 
 Output:  
 
