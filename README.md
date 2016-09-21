@@ -8,9 +8,10 @@ Name of QuantLet:  Newssurprise
 
 Published in:      
 
-Description:       'Generate news surprise index'
+Description:       'Plot news surprise index. The definition of "surprise" follows 
+                    uncertainty definition of Kyle, Sydney and Serena (2015)'
 
-Keywords:          'Media News, Sentiment, Uncertainty'
+Keywords:          'Plot, Time-series, Text Mining, Media News, Sentiment, Uncertainty'
 
 See also:          
 
@@ -20,7 +21,7 @@ Submitted:         'Mon, September 5 2016 by Guo Li'
 
 Datafile:          'dat_Z.RData 1996.csv nBWsent.RData nPLS.RData'
 
-Input:  '1996.csv, dat_Z.RData, nBWsent.RData, nPLS.RData'
+Input:   
 
 Output:  
 
@@ -33,7 +34,7 @@ Example:
 
 ```R
 setwd("c:~")
-libraries               = c("stochvol", "vars","lubridate")
+libraries                 = c("stochvol", "vars","lubridate")
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
 uncert                    = function(dat11,dat_Z,a=1,b=ncol(dat11),mean1 = T,q=5){

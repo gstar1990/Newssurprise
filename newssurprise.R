@@ -1,5 +1,5 @@
 setwd("c:~")
-libraries               = c("stochvol", "vars","lubridate")
+libraries                 = c("stochvol", "vars","lubridate")
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
 uncert                    = function(dat11,dat_Z,a=1,b=ncol(dat11),mean1 = T,q=5){
